@@ -3,7 +3,7 @@
 Deasciifier adds missing accented characters to Turkish text. It's based on Deniz Yuret's [Turkish Mode for Emacs]([https://github.com/denizyuret/deasciify](https://github.com/denizyuret/deasciify)).
 
 This repository contains libraries for JavaScript, C++ and C# as
-well as a website, a Chrome extension and a Firefox add-on.
+well as a website, a Chrome extension, a Firefox add-on and a language server (LSP).
 
 Website: [https://deasciifier.com](https://deasciifier.com)
 
@@ -63,3 +63,11 @@ python3 -m http.server
 
 You can now load the site at `http://localhost:8000`.
 
+### Language server
+
+Language server is written in go.  
+
+TODO: Add build description
+```
+ just build
+```
